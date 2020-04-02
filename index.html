@@ -10,29 +10,46 @@
     <div id="app"></div>
 
     <script>
-        // console.log(`十进制: 100 => 二进制: ${tenToBinary(100)}`)
-        // console.log(`十进制: 321 => 二进制: ${tenToBinary(321)}`)
-        // console.log(`十进制: 1023.5 => 二进制: ${tenToBinary(1023.5)}`)
+        // console.log(`十进制: 100 => 二进制: ${toBinary(100)}`)
+        // console.log(`十进制: 321 => 二进制: ${toBinary(321)}`)
+        // console.log(`十进制: 1023.5 => 二进制: ${toBinary(1023.5)}`)
         // console.log(`二进制: 0.000000101000111101011100001010001111010111000010100 => 十进制: ${binaryToTen('0.000000101000111101011100001010001111010111000010100')}`)
         
-        // console.log(`十进制: 0.125 => 二进制: ${tenToBinary(0.125)}`)
-        // console.log(`十进制: 0.75 => 二进制: ${tenToBinary(0.75)}`)
-        // console.log(`十进制: 0.1 => 二进制: ${tenToBinary(0.1)}`)
+        // console.log(`十进制: 0.125 => 二进制: ${toBinary(0.125)}`)
+        // console.log(`十进制: 0.75 => 二进制: ${toBinary(0.75)}`)
+        // console.log(`十进制: 0.1 => 二进制: ${toBinary(0.1)}`)
         // console.log(`二进制: 0.0001100110011001100110011001100110011001100110011001 => 十进制: ${binaryToTen('0.0001100110011001100110011001100110011001100110011001')}`)
         
-        // console.log(`十进制: 0.2 => 二进制: ${tenToBinary(0.2)}`)
+        // console.log(`十进制: 0.2 => 二进制: ${toBinary(0.2)}`)
         // console.log(`二进制: 0.0011001100110011001100110011001100110011001100110011 => 十进制: ${binaryToTen('0.0011001100110011001100110011001100110011001100110011')}`)
 
         // console.log(`二进制: 0 01111111011 1001100110011001100110011001100110011001100110011010 => 十进制: ${binaryToTen('0011111110111001100110011001100110011001100110011001100110011010')}`)
 
-        console.log(`十进制: 0.125 => 二进制: ${tenToBinary(0.125)}`)
-        console.log(`十进制: 0.75 => 二进制: ${tenToBinary(0.75)}`)
-        console.log(`十进制: 0.1 => 二进制: ${tenToBinary(0.1)}`)
-        console.log(`十进制: 0.2 => 二进制: ${tenToBinary(0.2)}`)
-        console.log(`十进制: 3.25 => 二进制: ${tenToBinary(3.25)}`)
-        console.log(`十进制: 3.24 => 二进制: ${tenToBinary(3.24)}`)
-        console.log(`十进制: 1023.05 => 二进制: ${tenToBinary(1023.05)}`)
-        console.log(`十进制: 1023.04 => 二进制: ${tenToBinary(1023.04)}`)
+        // console.log(`十进制: 0.125 => 二进制: ${toBinary(0.125)}`)
+        // console.log(`十进制: 0.75 => 二进制: ${toBinary(0.75)}`)
+        // console.log(`十进制: 0.1 => 二进制: ${toBinary(0.1)}`)
+        // console.log(`十进制: 0.2 => 二进制: ${toBinary(0.2)}`)
+        // console.log(`十进制: 3.25 => 二进制: ${toBinary(3.25)}`)
+        // console.log(`十进制: 3.24 => 二进制: ${toBinary(3.24)}`)
+        // console.log(`十进制: 1023.05 => 二进制: ${toBinary(1023.05)}`)
+        // console.log(`十进制: 1023.04 => 二进制: ${toBinary(1023.04)}`)
+
+
+        // console.log(`十进制: 1023 => 二进制: ${toFullBinary(1023)}`)
+        // console.log(`十进制: ${toFullBinary(1023)} => 二进制: ${toDecimalism(toFullBinary(1023))}`)
+        // console.log(`十进制: 0.5 => 二进制: ${toBinary(0.5)}`)
+        // console.log(`十进制: 0.1 => 二进制: ${toBinary(0.1)}`)
+        // console.log(`二进制: ${toBinary(0.1)} => 十进制: ${toDecimalism(toBinary(0.1))}`)
+        // console.log(`十进制: 0.2 => 二进制: ${toBinary(0.2)}`)
+        // console.log(`十进制: -5 => 完全二进制: ${toFullBinary(-5)}`)
+        // console.log(`完全二进制: ${toFullBinary(-5)} => 十进制: ${toDecimalism(toFullBinary(-5))}`)
+        // console.log(`十进制: 0.5 => 完全二进制: ${toFullBinary(0.5)}`)
+        console.log(`十进制: 0.1 => 完全二进制: ${toFullBinary(0.1)}`)
+        console.log(`完全二进制: ${toFullBinary(0.1)} => 十进制: ${toDecimalism(toFullBinary(0.1))}`)
+        // console.log(`完全二进制: ${toFullBinary(0.2)} => 十进制: ${toDecimalism(toFullBinary(0.2))}`)
+        // console.log(`完全二进制: ${toFullBinary(-0.2)} => 十进制: ${toDecimalism(toFullBinary(-0.2))}`)
+
+        // console.log(decimalAdd(0.11, 0.2))
     </script>
 </body>
 </html>
